@@ -1,6 +1,9 @@
 from binary_search import binary_search
+from dnc.farmSize import farmSize
+from dnc.quicksort.quicksort import quicksort
+from selection_sort.selection_sort import selectionSortMain
 
 if __name__ == '__main__':
-    my_list = [1, 3, 5, 7, 10, 14, 23, 43]
-    print(binary_search.binary_search(my_list, 4))
-    print(binary_search.binary_search(my_list, 14))
+    print(quicksort([10, 14, 3, 9, 6, 23, 19, 2, 5, 9, 9, 6, 11]))
+
+
