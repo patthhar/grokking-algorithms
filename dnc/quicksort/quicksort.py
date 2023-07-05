@@ -7,5 +7,3 @@ def quicksort(arr):
     greater = [i for i in arr[1:] if i > pivot]
     return quicksort(less) + [pivot] + quicksort(greater)
 
-
-
